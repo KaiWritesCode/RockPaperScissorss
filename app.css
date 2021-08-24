@@ -1,0 +1,119 @@
+* {
+    zoom: 92%
+}
+.selections img {
+    
+    border-radius: 50%;
+    border: 3px solid black;
+    text-align: center;
+    margin: 0 20px;
+    padding: 20px;
+    background-color: white;
+    transition: all 0.3s ease;
+    -webkit-user-drag: none;
+
+}
+
+.title {
+    text-align: center;
+    background-color: white;
+    padding: 10px;
+}
+
+.title h1 {
+    font-family: 'Encode Sans SC', sans-serif;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+p {
+    font-family: 'Encode Sans SC', sans-serif;
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.selections {
+    margin: 50px;
+    text-align: center;
+}
+
+.scoreboard {
+    margin: 20px auto;
+    border: 3px solid white;
+    border-radius: 4px;
+    width: 200px;
+    font-size: 46px;
+    padding: 15px 20px;
+    text-align: center;
+    position: relative;
+}
+
+.result {
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Encode Sans SC', sans-serif;
+    font-weight: bold;
+}
+
+.names {
+    background: #E2584D;
+    font-size: 14px;
+    padding: 2px 10px;
+    font-family: 'Encode Sans SC', sans-serif;
+}
+
+body {
+    background-color: #bfbdb8
+}
+
+#user-label {
+    position: absolute;
+    top: 30px;
+    left: -25px;
+}
+
+#comp-label {
+    position: absolute;
+    top: 30px;
+    right: -30px;
+}
+
+img:hover {
+    cursor: pointer;
+    background: #b6bab7;
+}
+
+.result-selection-winner {
+    opacity: 1;
+    width: 200px;
+    height: 200px;
+}
+.hide {
+    display: none;
+}
+
+.winner {
+    color: green;
+}
+#reset {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+#reset a {
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-transform: uppercase;
+}
+#reset a:hover {
+    color: rgb(204, 204, 247);
+    cursor: pointer;
+}
+
+.loser {
+   color: red;
+}
